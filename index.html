@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Sustentável & Agrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🌱 Futuro Sustentável</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#conteudos">Conteúdos</a>
+            <a href="#quiz">Quiz Interativo</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>O futuro da terra está nas nossas mãos.</h1>
+            <p>Produzir mais, proteger sempre. Descubra como o equilíbrio entre a produção e o meio ambiente constrói um mundo melhor.</p>
+            <a href="#conteudos" class="btn">Explorar Conteúdo</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Quem está por trás dessa ideia?</h2>
+            <p>Sou alguém apaixonado por entender como podemos alimentar o mundo sem destruir o planeta. Criei este espaço para descomplicar o agro sustentável, trazer informações verdadeiras com exemplos reais e mostrar que a tecnologia e a natureza andam juntas de forma jovem e divertida!</p>
+        </div>
+    </section>
+
+    <section id="conteudos" class="services">
+        <div class="container">
+            <h2>O que você encontra aqui</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>💡 Guia Agrinho</h3>
+                    <p>Resumos explicativos e materiais dinâmicos sobre as edições do projeto de forma simples, clara e direta para o público jovem.</p>
+                </div>
+                <div class="card">
+                    <h3>🌱 Exemplos Reais</h3>
+                    <p>Histórias de sucesso e dados verdadeiros sobre quem está mudando a realidade do campo com práticas verdes e tecnologia de ponta.</p>
+                </div>
+                <div class="card">
+                    <h3>🚀 Pílulas de Impacto</h3>
+                    <p>Informações curtas, curiosidades marcantes e insights rápidos para você aprender algo novo e legal em menos de um minuto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2>Teste seus Conhecimentos! 🧠</h2>
+            <p class="quiz-subtitle">Responda rápido: você conhece o agro sustentável?</p>
+            
+            <div class="quiz-card" id="quiz-container">
+                <div id="question-box">
+                    <h3 id="question-text">Carregando pergunta...</h3>
+                    <div class="options-container" id="options-box">
+                        </div>
+                </div>
+                <div id="result-box" class="hide">
+                    <h3>Parabéns por concluir! 🎉</h3>
+                    <p id="score-text">Você acertou 0 de 0 perguntas.</p>
+                    <button onclick="restartQuiz()" class="btn-restart">Jogar Novamente</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Futuro Sustentável - Informação com impacto e interatividade.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
